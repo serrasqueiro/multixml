@@ -1,8 +1,8 @@
 #-*- coding: utf-8 -*-
-# callingcodes.py  (c)2021  Henrique Moreira
+# multix/ callingcodes.py  (c)2021  Henrique Moreira
 
 """
-Phone Calling Codes, within 'multixml'
+Phone Calling Codes functions, within 'multixml'
 """
 
 # pylint: disable=missing-function-docstring
@@ -14,7 +14,7 @@ from multix.countryascii import ascii_str
 
 PHONE_METADATA = "$MULTI_BASE/aggregates/ggle/libphonenumber/resources/PhoneNumberMetadata.xml"
 
-def fetch_phone_number_metadata(xml_input1) -> dict:
+def fetch_phone_number_metadata(xml_input1, debug=0) -> dict:
     territory = None
     in_file = xml_input1
     root = etree.fromstring(open(in_file, "r", encoding="utf-8").read())
@@ -22,10 +22,11 @@ def fetch_phone_number_metadata(xml_input1) -> dict:
     for item in did:
         assert item.tag == "territories", f"Unknown item tag: {item.tag}"
         assert not territory
-        territory = fish(item)
+        territory = fish(item, debug=debug)
     return territory
 
 def fish(item, debug=0) -> dict:
+    """ Digs into PhoneNumberMetadata XML """
     idx = 0
     last_elem = None
     territory = {

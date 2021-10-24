@@ -1,4 +1,5 @@
-# (c)2021  Henrique Moreira
+#-*- coding: iso-8859-1 -*-
+# multix/ callingcodes.test.py  (c)2021  Henrique Moreira
 
 """ converts names to simpler ASCII
 

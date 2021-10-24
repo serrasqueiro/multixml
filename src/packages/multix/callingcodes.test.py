@@ -1,8 +1,8 @@
 #-*- coding: utf-8 -*-
-# callingcodes.test.py  (c)2021  Henrique Moreira
+# multix/ callingcodes.test.py  (c)2021  Henrique Moreira
 
 """
-Phone Calling Codes, within 'multixml'
+Phone Calling Codes test, within 'multixml'
 """
 
 # pylint: disable=missing-function-docstring
@@ -10,19 +10,26 @@ Phone Calling Codes, within 'multixml'
 import sys
 import os
 import multix.callingcodes as callingcodes
+from multix.callingjson import json_str
+
+DEBUG = 0
 
 def main():
     code = main_test("reader", sys.argv[1:])
     assert code == 0, "Bogus code: {}".format(code if code else "NONE!")
 
 def main_test(*args):
+    """ Main test! """
+    debug = DEBUG
     what = args[0]
     param = args[1]
     if len(param) != 1:
         return None
-    return main_run(what, param)
+    return main_run(what, param, debug=debug)
 
-def main_run(what:str, param:list, debug=1):
+def main_run(what:str, param:list, debug=0):
+    """ Main run! """
+    alist = []
     default_xml_input1 = callingcodes.PHONE_METADATA
     fname = param[0]
     if fname in (".",):
@@ -36,8 +43,11 @@ def main_run(what:str, param:list, debug=1):
         for ccode in territory["code-list"]:
             name, item = territory["name"][ccode], territory["info"][ccode]
             print("#", ccode, name)
+            alist.append((ccode, name))
     code = len(territory) > 100
     assert code == 0
+    astr = json_str(alist)
+    print(astr)
     return code
 
 def env_var(avar:str):
