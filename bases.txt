@@ -1,0 +1,9 @@
+
+
+Windows:
+  set MULTI_BASE=%USERPROFILE%\git_repos
+  python %MULTI_BASE%/tiny-snippets/snippets/from_java_cc_map/from_java_cc_map.py %MULTI_BASE%/aggregates/ggle/libphonenumber/resources/PhoneNumberMetadata.xml
+
+Linux:
+  export MULTI_BASE=$HOME/git_repos
+  python $MULTI_BASE/tiny-snippets/snippets/from_java_cc_map/from_java_cc_map.py $MULTI_BASE/aggregates/ggle/libphonenumber/resources/PhoneNumberMetadata.xml
