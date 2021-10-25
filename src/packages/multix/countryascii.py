@@ -9,8 +9,9 @@ See also:
 	[1] two letter country: ISO 3166-1 alpha-2
 """
 
-from  waxpage.redit import char_map
+# pylint: disable=missing-function-docstring
 
+from  waxpage.redit import char_map
 
 def ascii_str(astr:str) -> str:
     there = astr

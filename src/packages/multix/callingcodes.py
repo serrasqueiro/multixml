@@ -15,6 +15,7 @@ from multix.countryascii import ascii_str
 PHONE_METADATA = "$MULTI_BASE/aggregates/ggle/libphonenumber/resources/PhoneNumberMetadata.xml"
 
 def fetch_phone_number_metadata(xml_input1, debug=0) -> dict:
+    #debug = 1
     territory = None
     in_file = xml_input1
     root = etree.fromstring(open(in_file, "r", encoding="utf-8").read())
@@ -33,6 +34,7 @@ def fish(item, debug=0) -> dict:
         "code-list": [],
         "name": {},
         "info": {},
+        "main-region": {},
     }
     text, twoletter = "", ""
     for elem in item:
@@ -56,6 +58,15 @@ def fish(item, debug=0) -> dict:
                     twoletter = ""
                 shown = f"territory:key={twoletter}: {text}" if twoletter else f"territory:?: {comment}"
             else:
+                pos = comment.find("Main region for ")
+                if pos >= 0:
+                    assert pos == 0, f"Unexpected 'Main region for' here, pos={pos}: '{comment}'"
+                    assert twoletter
+                    astr = comment[len("Main region for "):]
+                    assert len(astr) >= 4, f"Two short region(s): {astr}"
+                    astr = unquote_regions(astr)
+                    territory["main-region"][twoletter] = astr
+                pre += "COMMENT:"
                 shown = comment
             if debug > 0:
                 print(pre, shown)
@@ -64,6 +75,7 @@ def fish(item, debug=0) -> dict:
                 print(pre, elem.tag, elem.attrib, ".")
             if twoletter:
                 territory["info"][twoletter].append((elem.tag, elem.attrib, elem))
+                assert len(territory["info"][twoletter]) == 1, f"Too many trees: {twoletter}"
         idx += 1
         last_elem = elem
     assert text
@@ -75,6 +87,11 @@ def shorter_comment(astr:str) -> str:
     alist = new.split("\n")
     new = '\\n'.join([lead.strip() for lead in alist])
     return new
+
+def unquote_regions(astr:str) -> str:
+    assert astr[0] == "'"
+    assert astr[-1] == "'"
+    return astr[1:-1].strip()
 
 # Main script
 if __name__ == "__main__":

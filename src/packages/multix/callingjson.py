@@ -4,6 +4,8 @@
 """ Simple json conversion
 """
 
+# pylint: disable=missing-function-docstring
+
 import json
 
 def json_str(alist:list) -> str:

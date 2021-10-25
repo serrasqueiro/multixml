@@ -10,6 +10,7 @@ Phone Calling Codes test, within 'multixml'
 import sys
 import os
 import multix.callingcodes as callingcodes
+import multix.dictionary as dictionary
 from multix.callingjson import json_str
 
 DEBUG = 0
@@ -25,11 +26,34 @@ def main_test(*args):
     param = args[1]
     if len(param) != 1:
         return None
-    return main_run(what, param, debug=debug)
+    result = {
+        "territory-list": [],
+        "code-list": [],
+        "info-list": [],
+        "main-region-extra": {},
+        "json-territory-names": "",
+        "json-calling-numbers": "",
+    }
+    code = dump_calling_codes(what, param, result, debug)
+    return code
 
-def main_run(what:str, param:list, debug=0):
+def dump_calling_codes(what, param, result, debug=0):
+    """
+    :param what: action, currently unused
+    :param param: arguments
+    :param result: dictionary
+    :param debug: 0
+    :return: integer code, 0 is Ok
+    """
+    code = main_run(what, param, result, debug=debug)
+    if debug > 0:
+        print("\n" + "RESULT:\n" + dictionary.stringify(result), "<<<")
+        print("Territories:", dictionary.stringify(result["code-list"]), "<<<")
+    print(result["json-calling-numbers"])
+    return code
+
+def main_run(what:str, param:list, result:dict, debug=0):
     """ Main run! """
-    alist = []
     default_xml_input1 = callingcodes.PHONE_METADATA
     fname = param[0]
     if fname in (".",):
@@ -37,17 +61,53 @@ def main_run(what:str, param:list, debug=0):
     else:
         xml_input1 = fname
     print("# Reading xml_input1:", xml_input1, "; action:", what)
+    code = parse_phone_metadata((xml_input1,), result, debug=debug)
+    return code
+
+def parse_phone_metadata(inputs:tuple, result:dict, debug=0) -> int:
+    """ Main parse: Phone Calling Codes XML """
+    territories_list = []
+    xml_input1 = inputs[0]
     territory = callingcodes.fetch_phone_number_metadata(xml_input1)
     assert isinstance(territory, dict)
-    if debug > 0:
-        for ccode in territory["code-list"]:
-            name, item = territory["name"][ccode], territory["info"][ccode]
+    code_list = territory["code-list"]
+    for ccode in code_list:
+        name = territory["name"][ccode]
+        if debug > 0:
             print("#", ccode, name)
-            alist.append((ccode, name))
+        adict = {
+            "IdStr": ccode,
+            "Name": name,
+        }
+        territories_list.append(adict)
     code = len(territory) > 100
     assert code == 0
-    astr = json_str(alist)
-    print(astr)
+    result["json-territory-names"] = json_str(territories_list)
+    result["territory-list"] = territories_list
+    result["code-list"] = territory["code-list"]
+    # Build information
+    infos = {}
+    for key in territory["info"]:
+        tag, attrib, _ = territory["info"][key][0]
+        assert tag == "territory"
+        ccode = attrib["countryCode"]
+        assert ccode
+        assert int(ccode) >= 1, f"Invalid ccode: '{ccode}'"
+        item = {
+            "Code": attrib["id"],
+            "CCode": int(ccode),  # Calling code!
+            "MainRegions": None,
+        }
+        infos[key] = item
+    assert not result["info-list"]
+    for key in code_list:
+        elem = infos[key]
+        result["info-list"].append(elem)
+        if key in territory["main-region"]:
+            main_regions = territory["main-region"][key]
+            result["main-region-extra"][key] = main_regions
+            infos[key]["Main"] = main_regions
+    result["json-calling-numbers"] = json_str(result["info-list"])
     return code
 
 def env_var(avar:str):
