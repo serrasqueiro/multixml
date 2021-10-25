@@ -1,0 +1,5 @@
+
+# ls $MULTI_BASE/tiny-snippets/snippets/from_java_cc_map/country_calling_codes.json
+
+py callingcodes.py $MULTI_BASE/aggregates/ggle/libphonenumber/resources/PhoneNumberMetadata.xml
+
