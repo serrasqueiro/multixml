@@ -1,0 +1,1239 @@
+[
+    {
+        "CCode": 247,
+        "Code": "AC",
+        "MainRegions": null
+    },
+    {
+        "CCode": 376,
+        "Code": "AD",
+        "MainRegions": null
+    },
+    {
+        "CCode": 971,
+        "Code": "AE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 93,
+        "Code": "AF",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "AG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "AI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 355,
+        "Code": "AL",
+        "MainRegions": null
+    },
+    {
+        "CCode": 374,
+        "Code": "AM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 244,
+        "Code": "AO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 54,
+        "Code": "AR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "AS",
+        "MainRegions": null
+    },
+    {
+        "CCode": 43,
+        "Code": "AT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 61,
+        "Code": "AU",
+        "Main": "CC,CX",
+        "MainRegions": null
+    },
+    {
+        "CCode": 297,
+        "Code": "AW",
+        "MainRegions": null
+    },
+    {
+        "CCode": 358,
+        "Code": "AX",
+        "MainRegions": null
+    },
+    {
+        "CCode": 994,
+        "Code": "AZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 387,
+        "Code": "BA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "BB",
+        "MainRegions": null
+    },
+    {
+        "CCode": 880,
+        "Code": "BD",
+        "MainRegions": null
+    },
+    {
+        "CCode": 32,
+        "Code": "BE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 226,
+        "Code": "BF",
+        "MainRegions": null
+    },
+    {
+        "CCode": 359,
+        "Code": "BG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 973,
+        "Code": "BH",
+        "MainRegions": null
+    },
+    {
+        "CCode": 257,
+        "Code": "BI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 229,
+        "Code": "BJ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 590,
+        "Code": "BL",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "BM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 673,
+        "Code": "BN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 591,
+        "Code": "BO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 599,
+        "Code": "BQ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 55,
+        "Code": "BR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "BS",
+        "MainRegions": null
+    },
+    {
+        "CCode": 975,
+        "Code": "BT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 267,
+        "Code": "BW",
+        "MainRegions": null
+    },
+    {
+        "CCode": 375,
+        "Code": "BY",
+        "MainRegions": null
+    },
+    {
+        "CCode": 501,
+        "Code": "BZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "CA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 61,
+        "Code": "CC",
+        "MainRegions": null
+    },
+    {
+        "CCode": 243,
+        "Code": "CD",
+        "MainRegions": null
+    },
+    {
+        "CCode": 236,
+        "Code": "CF",
+        "MainRegions": null
+    },
+    {
+        "CCode": 242,
+        "Code": "CG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 41,
+        "Code": "CH",
+        "MainRegions": null
+    },
+    {
+        "CCode": 225,
+        "Code": "CI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 682,
+        "Code": "CK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 56,
+        "Code": "CL",
+        "MainRegions": null
+    },
+    {
+        "CCode": 237,
+        "Code": "CM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 86,
+        "Code": "CN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 57,
+        "Code": "CO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 506,
+        "Code": "CR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 53,
+        "Code": "CU",
+        "MainRegions": null
+    },
+    {
+        "CCode": 238,
+        "Code": "CV",
+        "MainRegions": null
+    },
+    {
+        "CCode": 599,
+        "Code": "CW",
+        "Main": "BQ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 61,
+        "Code": "CX",
+        "MainRegions": null
+    },
+    {
+        "CCode": 357,
+        "Code": "CY",
+        "MainRegions": null
+    },
+    {
+        "CCode": 420,
+        "Code": "CZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 49,
+        "Code": "DE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 253,
+        "Code": "DJ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 45,
+        "Code": "DK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "DM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "DO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 213,
+        "Code": "DZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 593,
+        "Code": "EC",
+        "MainRegions": null
+    },
+    {
+        "CCode": 372,
+        "Code": "EE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 20,
+        "Code": "EG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 212,
+        "Code": "EH",
+        "MainRegions": null
+    },
+    {
+        "CCode": 291,
+        "Code": "ER",
+        "MainRegions": null
+    },
+    {
+        "CCode": 34,
+        "Code": "ES",
+        "MainRegions": null
+    },
+    {
+        "CCode": 251,
+        "Code": "ET",
+        "MainRegions": null
+    },
+    {
+        "CCode": 358,
+        "Code": "FI",
+        "Main": "AX",
+        "MainRegions": null
+    },
+    {
+        "CCode": 679,
+        "Code": "FJ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 500,
+        "Code": "FK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 691,
+        "Code": "FM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 298,
+        "Code": "FO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 33,
+        "Code": "FR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 241,
+        "Code": "GA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 44,
+        "Code": "GB",
+        "Main": "GG,IM,JE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "GD",
+        "MainRegions": null
+    },
+    {
+        "CCode": 995,
+        "Code": "GE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 594,
+        "Code": "GF",
+        "MainRegions": null
+    },
+    {
+        "CCode": 44,
+        "Code": "GG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 233,
+        "Code": "GH",
+        "MainRegions": null
+    },
+    {
+        "CCode": 350,
+        "Code": "GI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 299,
+        "Code": "GL",
+        "MainRegions": null
+    },
+    {
+        "CCode": 220,
+        "Code": "GM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 224,
+        "Code": "GN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 590,
+        "Code": "GP",
+        "Main": "BL,MF",
+        "MainRegions": null
+    },
+    {
+        "CCode": 240,
+        "Code": "GQ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 30,
+        "Code": "GR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 502,
+        "Code": "GT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "GU",
+        "MainRegions": null
+    },
+    {
+        "CCode": 245,
+        "Code": "GW",
+        "MainRegions": null
+    },
+    {
+        "CCode": 592,
+        "Code": "GY",
+        "MainRegions": null
+    },
+    {
+        "CCode": 852,
+        "Code": "HK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 504,
+        "Code": "HN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 385,
+        "Code": "HR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 509,
+        "Code": "HT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 36,
+        "Code": "HU",
+        "MainRegions": null
+    },
+    {
+        "CCode": 62,
+        "Code": "ID",
+        "MainRegions": null
+    },
+    {
+        "CCode": 353,
+        "Code": "IE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 972,
+        "Code": "IL",
+        "MainRegions": null
+    },
+    {
+        "CCode": 44,
+        "Code": "IM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 91,
+        "Code": "IN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 246,
+        "Code": "IO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 964,
+        "Code": "IQ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 98,
+        "Code": "IR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 354,
+        "Code": "IS",
+        "MainRegions": null
+    },
+    {
+        "CCode": 39,
+        "Code": "IT",
+        "Main": "VA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 44,
+        "Code": "JE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "JM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 962,
+        "Code": "JO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 81,
+        "Code": "JP",
+        "MainRegions": null
+    },
+    {
+        "CCode": 254,
+        "Code": "KE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 996,
+        "Code": "KG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 855,
+        "Code": "KH",
+        "MainRegions": null
+    },
+    {
+        "CCode": 686,
+        "Code": "KI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 269,
+        "Code": "KM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "KN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 850,
+        "Code": "KP",
+        "MainRegions": null
+    },
+    {
+        "CCode": 82,
+        "Code": "KR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 965,
+        "Code": "KW",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "KY",
+        "MainRegions": null
+    },
+    {
+        "CCode": 7,
+        "Code": "KZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 856,
+        "Code": "LA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 961,
+        "Code": "LB",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "LC",
+        "MainRegions": null
+    },
+    {
+        "CCode": 423,
+        "Code": "LI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 94,
+        "Code": "LK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 231,
+        "Code": "LR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 266,
+        "Code": "LS",
+        "MainRegions": null
+    },
+    {
+        "CCode": 370,
+        "Code": "LT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 352,
+        "Code": "LU",
+        "MainRegions": null
+    },
+    {
+        "CCode": 371,
+        "Code": "LV",
+        "MainRegions": null
+    },
+    {
+        "CCode": 218,
+        "Code": "LY",
+        "MainRegions": null
+    },
+    {
+        "CCode": 212,
+        "Code": "MA",
+        "Main": "EH",
+        "MainRegions": null
+    },
+    {
+        "CCode": 377,
+        "Code": "MC",
+        "MainRegions": null
+    },
+    {
+        "CCode": 373,
+        "Code": "MD",
+        "MainRegions": null
+    },
+    {
+        "CCode": 382,
+        "Code": "ME",
+        "MainRegions": null
+    },
+    {
+        "CCode": 590,
+        "Code": "MF",
+        "MainRegions": null
+    },
+    {
+        "CCode": 261,
+        "Code": "MG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 692,
+        "Code": "MH",
+        "MainRegions": null
+    },
+    {
+        "CCode": 389,
+        "Code": "MK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 223,
+        "Code": "ML",
+        "MainRegions": null
+    },
+    {
+        "CCode": 95,
+        "Code": "MM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 976,
+        "Code": "MN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 853,
+        "Code": "MO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "MP",
+        "MainRegions": null
+    },
+    {
+        "CCode": 596,
+        "Code": "MQ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 222,
+        "Code": "MR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "MS",
+        "MainRegions": null
+    },
+    {
+        "CCode": 356,
+        "Code": "MT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 230,
+        "Code": "MU",
+        "MainRegions": null
+    },
+    {
+        "CCode": 960,
+        "Code": "MV",
+        "MainRegions": null
+    },
+    {
+        "CCode": 265,
+        "Code": "MW",
+        "MainRegions": null
+    },
+    {
+        "CCode": 52,
+        "Code": "MX",
+        "MainRegions": null
+    },
+    {
+        "CCode": 60,
+        "Code": "MY",
+        "MainRegions": null
+    },
+    {
+        "CCode": 258,
+        "Code": "MZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 264,
+        "Code": "NA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 687,
+        "Code": "NC",
+        "MainRegions": null
+    },
+    {
+        "CCode": 227,
+        "Code": "NE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 672,
+        "Code": "NF",
+        "MainRegions": null
+    },
+    {
+        "CCode": 234,
+        "Code": "NG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 505,
+        "Code": "NI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 31,
+        "Code": "NL",
+        "MainRegions": null
+    },
+    {
+        "CCode": 47,
+        "Code": "NO",
+        "Main": "SJ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 977,
+        "Code": "NP",
+        "MainRegions": null
+    },
+    {
+        "CCode": 674,
+        "Code": "NR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 683,
+        "Code": "NU",
+        "MainRegions": null
+    },
+    {
+        "CCode": 64,
+        "Code": "NZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 968,
+        "Code": "OM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 507,
+        "Code": "PA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 51,
+        "Code": "PE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 689,
+        "Code": "PF",
+        "MainRegions": null
+    },
+    {
+        "CCode": 675,
+        "Code": "PG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 63,
+        "Code": "PH",
+        "MainRegions": null
+    },
+    {
+        "CCode": 92,
+        "Code": "PK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 48,
+        "Code": "PL",
+        "MainRegions": null
+    },
+    {
+        "CCode": 508,
+        "Code": "PM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "PR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 970,
+        "Code": "PS",
+        "MainRegions": null
+    },
+    {
+        "CCode": 351,
+        "Code": "PT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 680,
+        "Code": "PW",
+        "MainRegions": null
+    },
+    {
+        "CCode": 595,
+        "Code": "PY",
+        "MainRegions": null
+    },
+    {
+        "CCode": 974,
+        "Code": "QA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 262,
+        "Code": "RE",
+        "Main": "YT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 40,
+        "Code": "RO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 381,
+        "Code": "RS",
+        "MainRegions": null
+    },
+    {
+        "CCode": 7,
+        "Code": "RU",
+        "Main": "KZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 250,
+        "Code": "RW",
+        "MainRegions": null
+    },
+    {
+        "CCode": 966,
+        "Code": "SA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 677,
+        "Code": "SB",
+        "MainRegions": null
+    },
+    {
+        "CCode": 248,
+        "Code": "SC",
+        "MainRegions": null
+    },
+    {
+        "CCode": 249,
+        "Code": "SD",
+        "MainRegions": null
+    },
+    {
+        "CCode": 46,
+        "Code": "SE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 65,
+        "Code": "SG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 290,
+        "Code": "SH",
+        "Main": "TA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 386,
+        "Code": "SI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 47,
+        "Code": "SJ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 421,
+        "Code": "SK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 232,
+        "Code": "SL",
+        "MainRegions": null
+    },
+    {
+        "CCode": 378,
+        "Code": "SM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 221,
+        "Code": "SN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 252,
+        "Code": "SO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 597,
+        "Code": "SR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 211,
+        "Code": "SS",
+        "MainRegions": null
+    },
+    {
+        "CCode": 239,
+        "Code": "ST",
+        "MainRegions": null
+    },
+    {
+        "CCode": 503,
+        "Code": "SV",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "SX",
+        "MainRegions": null
+    },
+    {
+        "CCode": 963,
+        "Code": "SY",
+        "MainRegions": null
+    },
+    {
+        "CCode": 268,
+        "Code": "SZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 290,
+        "Code": "TA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "TC",
+        "MainRegions": null
+    },
+    {
+        "CCode": 235,
+        "Code": "TD",
+        "MainRegions": null
+    },
+    {
+        "CCode": 228,
+        "Code": "TG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 66,
+        "Code": "TH",
+        "MainRegions": null
+    },
+    {
+        "CCode": 992,
+        "Code": "TJ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 690,
+        "Code": "TK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 670,
+        "Code": "TL",
+        "MainRegions": null
+    },
+    {
+        "CCode": 993,
+        "Code": "TM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 216,
+        "Code": "TN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 676,
+        "Code": "TO",
+        "MainRegions": null
+    },
+    {
+        "CCode": 90,
+        "Code": "TR",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "TT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 688,
+        "Code": "TV",
+        "MainRegions": null
+    },
+    {
+        "CCode": 886,
+        "Code": "TW",
+        "MainRegions": null
+    },
+    {
+        "CCode": 255,
+        "Code": "TZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 380,
+        "Code": "UA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 256,
+        "Code": "UG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "US",
+        "Main": "AG,AI,AS,BB,BM,BS,CA,DM,DO,GD,GU,JM,KN,KY,LC,MP,MS,PR,SX,TC,TT,VC,VG,VI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 598,
+        "Code": "UY",
+        "MainRegions": null
+    },
+    {
+        "CCode": 998,
+        "Code": "UZ",
+        "MainRegions": null
+    },
+    {
+        "CCode": 39,
+        "Code": "VA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "VC",
+        "MainRegions": null
+    },
+    {
+        "CCode": 58,
+        "Code": "VE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "VG",
+        "MainRegions": null
+    },
+    {
+        "CCode": 1,
+        "Code": "VI",
+        "MainRegions": null
+    },
+    {
+        "CCode": 84,
+        "Code": "VN",
+        "MainRegions": null
+    },
+    {
+        "CCode": 678,
+        "Code": "VU",
+        "MainRegions": null
+    },
+    {
+        "CCode": 681,
+        "Code": "WF",
+        "MainRegions": null
+    },
+    {
+        "CCode": 685,
+        "Code": "WS",
+        "MainRegions": null
+    },
+    {
+        "CCode": 383,
+        "Code": "XK",
+        "MainRegions": null
+    },
+    {
+        "CCode": 967,
+        "Code": "YE",
+        "MainRegions": null
+    },
+    {
+        "CCode": 262,
+        "Code": "YT",
+        "MainRegions": null
+    },
+    {
+        "CCode": 27,
+        "Code": "ZA",
+        "MainRegions": null
+    },
+    {
+        "CCode": 260,
+        "Code": "ZM",
+        "MainRegions": null
+    },
+    {
+        "CCode": 263,
+        "Code": "ZW",
+        "MainRegions": null
+    }
+]
