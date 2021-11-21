@@ -1,5 +1,8 @@
+export MULTI_BASE=$HOME/git_repos
 
 # ls $MULTI_BASE/tiny-snippets/snippets/from_java_cc_map/country_calling_codes.json
 
-py callingcodes.py $MULTI_BASE/aggregates/ggle/libphonenumber/resources/PhoneNumberMetadata.xml
+python callingcodes.py $MULTI_BASE/aggregates/ggle/libphonenumber/resources/PhoneNumberMetadata.xml
 
+# or
+#	python callingcodes.test.py .
